@@ -1,0 +1,51 @@
+.App {
+  margin-top: 30px;
+  text-align: center;
+  width: 220px;
+  height: 320px;
+  background-color: rgb(56, 68, 74);
+  border-radius: 4px;
+}
+
+.pad-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  font-weight: bolder;
+  padding: 2px;
+  color: rgb(14, 88, 109);
+  margin: 1px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(219, 238, 255);
+  font-size: 24px;
+  width: 160px;
+  height: 46px;
+  border-radius: 6px;
+  color: rgb(1, 17, 32);
+}
